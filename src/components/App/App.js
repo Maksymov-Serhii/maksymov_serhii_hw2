@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <ShowChildren>
           <SomeStrings itSchool='CyberBionic systematics'
             studentFirstName='Serhii'
@@ -15,7 +14,6 @@ function App() {
             isChosenReact = {true}
           />
         </ShowChildren>
-      </header>
     </div>
   );
 }
